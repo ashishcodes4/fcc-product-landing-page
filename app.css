@@ -1,4 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  padding: 2em;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    min-height: 60px;
+    margin-bottom: 1em;
+}
+#nav-bar>* {
+    list-style: none;
+}
 .container {
-    padding: 2em;
-    text-align: center;
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
